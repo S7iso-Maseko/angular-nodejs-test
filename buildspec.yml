@@ -1,7 +1,7 @@
 version: 0.2
 phases:
   install:
-    runtime-versions:
+    # runtime-versions:
       # Intentionally NOT specifying nodejs version to replicate the issue
       # This will default to Node.js 18
     commands:
