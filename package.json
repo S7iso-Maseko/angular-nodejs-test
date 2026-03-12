@@ -1,0 +1,11 @@
+{
+  "name": "angular-nodejs-test",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Building application...' && node --version"
+  },
+  "dependencies": {
+    "@angular-devkit/architect": "^0.2003.18",
+    "@angular-devkit/build-angular": "^20.3.19"
+  }
+}
