@@ -16,7 +16,7 @@ phases:
       - echo Build completed on `date`
       - echo "Listing files in current directory:"
       - ls -la
-      # - aws s3 cp build-output.zip s3://another-test-bucket-007
+      - aws s3 cp package.json s3://another-test-bucket-007
 artifacts:
   files:
     - '**/*'
