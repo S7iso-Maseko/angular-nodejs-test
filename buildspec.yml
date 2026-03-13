@@ -15,7 +15,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - aws s3 cp build-output.zip s3://another-test-bucket-007
-    base-directory: 'build'
    artifacts:
       files:
         - '**/*'
+      base-directory: 'build'
